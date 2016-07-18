@@ -46,7 +46,7 @@ Changed the structure of cities table ability to add sub city names.
 **Cities**
 
 | id  | district_id | name_en       | name_si       | name_ta       | sub_name_en       | sub_name_si       | sub_name_ta       | postcode | latitude | longitude |
-| --- | ----------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
+| --- | ----------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
 | 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | NULL          | NULL          | NULL          | 32400    | 7.2167   | 81.85     |
 | 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
 
