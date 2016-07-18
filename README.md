@@ -14,8 +14,7 @@ There are three SQL files,
 
 ### Updates
 
-* July 18 2016
-Changed the structure of cities table ability to add sub city names.
+* July 18 2016 - Changed the structure of cities table ability to add sub city names.
 
 
 ###Statistics
