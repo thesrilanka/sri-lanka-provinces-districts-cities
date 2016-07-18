@@ -12,11 +12,17 @@ There are three SQL files,
  2. districts.sql (All districts related to each province)
  3. cities.sql (All cities related to each district)
 
+### Updates
+
+* July 18 2016
+Changed the structure of cities table ability to add sub city names.
+
+
 ###Statistics
 
 *  Provinces - 9
 *  Districts - 25
-*  Cities - 1836
+*  Cities - 1846
 
 ###Sample tables structure with data
 
@@ -39,10 +45,10 @@ There are three SQL files,
 
 **Cities**
 
-| id  | district_id | name_en       | name_si       | name_ta       | postcode | latitude | longitude |
+| id  | district_id | name_en       | name_si       | name_ta       | sub_name_en       | sub_name_si       | sub_name_ta       | postcode | latitude | longitude |
 | --- | ----------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
-| 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | 32400    | 7.2167   | 81.85     |
-| 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | 90326    | 7.4      | 81.3      |
+| 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | NULL          | NULL          | NULL          | 32400    | 7.2167   | 81.85     |
+| 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
 
 
 
