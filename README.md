@@ -50,6 +50,10 @@ There are three SQL files,
 | 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
 
 
+### Install
+
+In order to prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
+
 
 ### MySQL Usage
 

@@ -19,7 +19,7 @@ CREATE TABLE `cities` (
   `longitude` double DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_cities_districts1_idx` (`district_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1847 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;
 
 
 --

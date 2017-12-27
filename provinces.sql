@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `provinces` (
   `name_si` varchar(45) DEFAULT NULL,
   `name_ta` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;
 
 --
 -- Dumping data for table `provinces`
