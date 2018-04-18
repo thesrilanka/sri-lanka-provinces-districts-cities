@@ -29,7 +29,7 @@ CREATE TABLE `cities` (
 INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub_name_en`, `sub_name_si`, `sub_name_ta`, `postcode`, `latitude`, `longitude`) VALUES
 (1, 1, 'Akkaraipattu', 'අක්කරපත්තුව', NULL, NULL, NULL, NULL, '32400', 7.2167, 81.85),
 (2, 1, 'Ambagahawatta', 'අඹගහවත්ත', NULL, NULL, NULL, NULL, '90326', 7.4, 81.3),
-(3, 1, 'Ampara', 'අම්පාර', NULL, NULL, NULL, NULL, '32000', 7.2833, 81.6667),
+(3, 1, 'Ampara', 'අම්පාර', 'அம்பாறை', NULL, NULL, NULL, '32000', 7.2833, 81.6667),
 (4, 1, 'Bakmitiyawa', 'බක්මිටියාව', NULL, NULL, NULL, NULL, '32024', 7.026268, 81.633832),
 (5, 1, 'Deegawapiya', 'දීඝවාපිය', NULL, NULL, NULL, NULL, '32006', 7.2833, 81.6667),
 (6, 1, 'Devalahinda', 'දෙවලහිඳ', NULL, NULL, NULL, NULL, '32038', 7.1889, 81.5778),
@@ -61,7 +61,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (32, 1, 'Polwaga Janapadaya', 'පොල්වග ජනපදය', NULL, NULL, NULL, NULL, '32032', 7.1889, 81.5778),
 (33, 1, 'Pottuvil', 'පොතුවිල්', NULL, NULL, NULL, NULL, '32500', 6.8667, 81.8333),
 (34, 1, 'Sainthamaruthu', 'සායින්දමරුදු', NULL, NULL, NULL, NULL, '32280', 7.3833, 81.8333),
-(35, 1, 'Samanthurai', 'සමන්තුරේ', NULL, NULL, NULL, NULL, '32200', 7.3833, 81.8333),
+(35, 1, 'Samanthurai', 'සමන්තුරේ', 'சம்மாந்துறை', NULL, NULL, NULL, '32200', 7.3833, 81.8333),
 (36, 1, 'Serankada', 'සේරන්කද', NULL, NULL, NULL, NULL, '32101', 7.464517, 81.263599),
 (37, 1, 'Tempitiya', 'ටැම්පිටිය', NULL, NULL, NULL, NULL, '32072', 7.610374, 81.429907),
 (38, 1, 'Thambiluvil', 'ල්තැඹිළුවි', NULL, NULL, NULL, NULL, '32415', 7.132227, 81.819074),
