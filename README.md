@@ -85,18 +85,20 @@ ORDER BY distance
 
 ### Translation in progress
 
-> **Provinces**
+
+**Provinces**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
 **Districts**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
+
 **Cities**
 > 
 > | සිංහල | தமிழ |  
