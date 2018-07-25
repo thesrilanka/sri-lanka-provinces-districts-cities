@@ -1,9 +1,7 @@
-# Sri Lanka Provinces Districts Cities Database ##
+# Sri Lanka Provinces Districts Cities Database
 
 
 ### About
-
-
 
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities related data.
 
@@ -12,19 +10,20 @@ There are three SQL files,
  2. districts.sql (All districts related to each province)
  3. cities.sql (All cities related to each district)
 
+
 ### Updates
 
 * July 18 2016 - Changed the structure of cities table ability to add sub city names.
 
 
-###Statistics
+### Statistics
 
 *  Provinces - 9
 *  Districts - 25
 *  Cities - 1846
 
-###Sample tables structure with data
 
+### Sample tables structure with data
 
 **Provinces**
 
@@ -57,7 +56,6 @@ In order to prevent unnecessary error occurring, start to import or execute prov
 
 ### MySQL Usage
 
-
 **Advantages of latitude and longitude**
 
 * Integrate with google map or any map related service to show exact place of the city in the map.
@@ -76,15 +74,12 @@ ORDER BY distance
 
 ### Note
 
-
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * Feel free to contribute to the project.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
 
 
-
 ### Translation in progress
-
 
 **Provinces**
 > 
@@ -98,10 +93,8 @@ ORDER BY distance
 > | ---- | ---- |
 > | 100% | 100% |
 
-
 **Cities**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
-> | 45% | 0.6% |
-
+> | 43% | 0% |
