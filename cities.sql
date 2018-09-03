@@ -1058,7 +1058,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (1029, 13, 'Kilinochchi', NULL, NULL, NULL, NULL, NULL, '', 9.416667, 80.416667),
 (1030, 13, 'Pachchilaipalli', NULL, NULL, NULL, NULL, NULL, '', 9.6115808, 80.3273106),
 (1031, 13, 'Poonakary', NULL, NULL, NULL, NULL, NULL, '', 9.5035013, 80.2111173),
-(1032, 14, 'Akurana', 'අකුරණ', NULL, NULL, NULL, NULL, '20850', 7.637034, 80.023362),
+(1032, 11, 'Akurana', 'අකුරණ', NULL, NULL, NULL, NULL, '20850', 7.637034, 80.023362),
 (1033, 14, 'Alahengama', 'අලහෙන්ගම', NULL, NULL, NULL, NULL, '60416', 7.6779, 80.1151),
 (1034, 14, 'Alahitiyawa', 'අලහිටියාව', NULL, NULL, NULL, NULL, '60182', 7.473913, 80.171211),
 (1035, 14, 'Ambakote', 'අඹකොටේ', NULL, NULL, NULL, NULL, '60036', 7.492063, 80.452844),
