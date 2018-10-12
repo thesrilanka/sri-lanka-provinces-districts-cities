@@ -1,9 +1,7 @@
-# Sri Lanka Provinces Districts Cities Database ##
+# Sri Lanka Provinces Districts Cities Database
 
 
 ### About
-
-
 
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities related data.
 
@@ -12,19 +10,20 @@ There are three SQL files,
  2. districts.sql (All districts related to each province)
  3. cities.sql (All cities related to each district)
 
+
 ### Updates
 
 * July 18 2016 - Changed the structure of cities table ability to add sub city names.
 
 
-###Statistics
+### Statistics
 
 *  Provinces - 9
 *  Districts - 25
 *  Cities - 1846
 
-###Sample tables structure with data
 
+### Sample tables structure with data
 
 **Provinces**
 
@@ -50,9 +49,12 @@ There are three SQL files,
 | 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
 
 
+### Install
+
+In order to prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
+
 
 ### MySQL Usage
-
 
 **Advantages of latitude and longitude**
 
@@ -72,30 +74,28 @@ ORDER BY distance
 
 ### Note
 
-
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * Feel free to contribute to the project.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
 
 
-
 ### Translation in progress
 
-> **Provinces**
+**Provinces**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
 **Districts**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
 **Cities**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
-> | 4% | 0% |
+> | 48% | 0.6% |
 
