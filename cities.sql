@@ -605,7 +605,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (576, 7, 'Uggalboda', 'උග්ගල්බොඩ ', NULL, NULL, NULL, NULL, '11034', 7.135549, 79.948259),
 (577, 7, 'Urapola', NULL, NULL, NULL, NULL, NULL, '11126', 7.104792, 80.136935),
 (578, 7, 'Uswetakeiyawa', NULL, NULL, NULL, NULL, NULL, '11328', 7.031046, 79.860339),
-(579, 7, 'Veyangoda', NULL, NULL, NULL, NULL, NULL, '11100', 7.156981, 80.095842),
+(579, 7, 'Veyangoda', 'වේයන්ගොඩ', NULL, NULL, NULL, NULL, '11100', 7.156981, 80.095842),
 (580, 7, 'Walgammulla', NULL, NULL, NULL, NULL, NULL, '11146', 7.071902, 80.116511),
 (581, 7, 'Walpita', NULL, NULL, NULL, NULL, NULL, '11226', 7.258131, 80.034704),
 (582, 7, 'Walpola (WP)', 'වල්පොල ', NULL, NULL, NULL, NULL, '11012', 7.0418, 79.9257),
