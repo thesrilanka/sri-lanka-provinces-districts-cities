@@ -572,7 +572,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (543, 7, 'Mudungoda', 'මුදුන්ගොඩ', NULL, NULL, NULL, NULL, '11056', 7.064698, 79.999092),
 (544, 7, 'Mulleriyawa New Town', 'මුල්ලේරියාව නව නගරය', NULL, NULL, NULL, NULL, '10620', 6.9301, 80.0549),
 (545, 7, 'Naranwala', NULL, NULL, NULL, NULL, NULL, '11063', 7.001631, 80.027404),
-(546, 7, 'Nawana', NULL, NULL, NULL, NULL, NULL, '11222', 7.270062, 80.092618),
+(546, 7, 'Nawana','නාවල', NULL, NULL, NULL, NULL, '11222', 7.270062, 80.092618),
 (547, 7, 'Nedungamuwa', NULL, NULL, NULL, NULL, NULL, '11066', 7.05, 80.0333),
 (548, 7, 'Negombo', NULL, NULL, NULL, NULL, NULL, '11500', 7.2086, 79.8358),
 (549, 7, 'Nikadalupotha', NULL, NULL, NULL, NULL, NULL, '60580', 7.1167, 80.1333),
