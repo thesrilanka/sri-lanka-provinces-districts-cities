@@ -299,7 +299,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (270, 3, 'Sorabora Colony', NULL, NULL, NULL, NULL, NULL, '90718', 7.3583, 81.1083),
 (271, 3, 'Soragune', NULL, NULL, NULL, NULL, NULL, '90183', 6.8333, 80.8778),
 (272, 3, 'Soranatota', NULL, NULL, NULL, NULL, NULL, '90008', 7.0167, 81.05),
-(273, 3, 'Taldena', NULL, NULL, NULL, NULL, NULL, '90014', 7.0833, 81.05),
+(273, 3, 'Taldena','තල්දෙන', NULL, NULL, NULL, NULL, '90014', 7.0833, 81.05),
 (274, 3, 'Timbirigaspitiya', 'තිඹිරිගස්පිටිය', NULL, NULL, NULL, NULL, '90012', 7.0333, 81.05),
 (275, 3, 'Uduhawara', NULL, NULL, NULL, NULL, NULL, '90226', 6.94706, 80.85877),
 (276, 3, 'Uraniya', 'උරණිය', NULL, NULL, NULL, NULL, '90702', 7.237143, 81.102818),
