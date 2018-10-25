@@ -716,7 +716,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (687, 10, 'Hedigalla Colony', NULL, NULL, NULL, NULL, NULL, '12234', 6.5333, 80.2667),
 (688, 10, 'Henegama', NULL, NULL, NULL, NULL, NULL, '11715', 6.7167, 80.0333),
 (689, 10, 'Hettimulla', NULL, NULL, NULL, NULL, NULL, '71210', 6.461362, 79.992643),
-(690, 10, 'Horana', NULL, NULL, NULL, NULL, NULL, '12400', 6.719389, 80.061557),
+(690, 10, 'Horana','හොරණ', NULL, NULL, NULL, NULL, '12400', 6.719389, 80.061557),
 (691, 10, 'Ittapana', NULL, NULL, NULL, NULL, NULL, '12116', 6.42254, 80.079501),
 (692, 10, 'Kahawala', NULL, NULL, NULL, NULL, NULL, '10508', 6.7833, 80.1),
 (693, 10, 'Kalawila Kiranthidiya', NULL, NULL, NULL, NULL, NULL, '12078', 6.4619, 80.0004),
