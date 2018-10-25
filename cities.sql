@@ -449,7 +449,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (420, 6, 'Mahawela Sinhapura', 'මහවෙල සිංහපුර', NULL, NULL, NULL, NULL, '51076', 6.3167, 80.0333),
 (421, 6, 'Mapalagama', 'මාපලගම', NULL, NULL, NULL, NULL, '80112', 6.234713, 80.27784),
 (422, 6, 'Mapalagama Central', 'මාපලගම මධ්‍යම', NULL, NULL, NULL, NULL, '80116', 6.2167, 80.3),
-(423, 6, 'Mattaka', NULL, NULL, NULL, NULL, NULL, '80424', 6.302366, 80.254218),
+(423, 6, 'Mattaka','මට්ටක', NULL, NULL, NULL, NULL, '80424', 6.302366, 80.254218),
 (424, 6, 'Meda-Keembiya', NULL, NULL, NULL, NULL, NULL, '80092', 6.1845, 80.3032),
 (425, 6, 'Meetiyagoda', NULL, NULL, NULL, NULL, NULL, '80330', 6.189135, 80.093504),
 (426, 6, 'Nagoda', 'නාගොඩ', NULL, NULL, NULL, NULL, '80110', 6.201296, 80.277829),
