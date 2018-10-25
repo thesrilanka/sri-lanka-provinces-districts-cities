@@ -327,7 +327,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (298, 4, 'Kannankudah', NULL, NULL, NULL, NULL, NULL, '30016', 7.675505, 81.674125),
 (299, 4, 'Karadiyanaru', NULL, NULL, NULL, NULL, NULL, '30354', 7.689478, 81.531117),
 (300, 4, 'Kathiraveli', NULL, NULL, NULL, NULL, NULL, '30456', 8.243933, 81.360298),
-(301, 4, 'Kattankudi', NULL, NULL, NULL, NULL, NULL, '30100', 7.675, 81.73),
+(301, 4, 'Kattankudi', 'කාත්තන්කුඩි' NULL, NULL, NULL, NULL, '30100', 7.675, 81.73),
 (302, 4, 'Kiran', NULL, NULL, NULL, NULL, NULL, '30394', 7.866841, 81.529737),
 (303, 4, 'Kirankulam', NULL, NULL, NULL, NULL, NULL, '30159', 7.615628, 81.764245),
 (304, 4, 'Koddaikallar', NULL, NULL, NULL, NULL, NULL, '30249', 7.6389, 81.6639),
