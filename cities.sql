@@ -752,7 +752,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (723, 10, 'Pahalahewessa', NULL, NULL, NULL, NULL, NULL, '12144', 6.4333, 80.2667),
 (724, 10, 'Paiyagala', NULL, NULL, NULL, NULL, NULL, '12050', 6.5167, 80.0167),
 (725, 10, 'Panadura', NULL, NULL, NULL, NULL, NULL, '12500', 6.7133, 79.9042),
-(726, 10, 'Pannala', NULL, NULL, NULL, NULL, NULL, '60160', 6.4833, 80),
+(726, 10, 'Pannala','පන්නල', NULL, NULL, NULL, NULL, '60160', 6.4833, 80),
 (727, 10, 'Paragastota', NULL, NULL, NULL, NULL, NULL, '12414', 6.6667, 80),
 (728, 10, 'Paragoda', NULL, NULL, NULL, NULL, NULL, '12302', 6.627108, 80.24112),
 (729, 10, 'Paraigama', NULL, NULL, NULL, NULL, NULL, '12122', 6.4167, 80.1167),
