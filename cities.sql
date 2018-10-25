@@ -442,7 +442,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (413, 6, 'Karagoda', 'කරාගොඩ', NULL, NULL, NULL, NULL, '80151', 6.084182, 80.395041),
 (414, 6, 'Karandeniya', 'කරන්දෙණිය', NULL, NULL, NULL, NULL, '80360', 6.260467, 80.072462),
 (415, 6, 'Kosgoda', 'කොස්ගොඩ', NULL, NULL, NULL, NULL, '80570', 6.332288, 80.028315),
-(416, 6, 'Kottawagama', NULL, NULL, NULL, NULL, NULL, '80062', 6.1375, 80.3419),
+(416, 6, 'Kottawagama','කොට්ටාවගම', NULL, NULL, NULL, NULL, '80062', 6.1375, 80.3419),
 (417, 6, 'Kottegoda', 'කෝට්ටේගොඩ', NULL, NULL, NULL, NULL, '81180', 6.1667, 80.1),
 (418, 6, 'Kuleegoda', 'කුලීගොඩ', NULL, NULL, NULL, NULL, '80328', 6.2167, 80.1167),
 (419, 6, 'Magedara', NULL, NULL, NULL, NULL, NULL, '80152', 6.108129, 80.393927),
