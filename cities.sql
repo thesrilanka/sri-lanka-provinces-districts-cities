@@ -588,7 +588,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (559, 7, 'Pepiliyawala', NULL, NULL, NULL, NULL, NULL, '11741', 7.002342, 80.128886),
 (560, 7, 'Pethiyagoda', NULL, NULL, NULL, NULL, NULL, '11043', 7.1167, 80.0167),
 (561, 7, 'Polpithimukulana', NULL, NULL, NULL, NULL, NULL, '11324', 7.0444, 79.8782),
-(562, 7, 'Puwakpitiya', NULL, NULL, NULL, NULL, NULL, '10712', 7.040498, 80.064451),
+(562, 7, 'Puwakpitiya', 'පුවක්පිටිය', NULL, NULL, NULL, NULL, '10712', 7.040498, 80.064451),
 (563, 7, 'Radawadunna', NULL, NULL, NULL, NULL, NULL, '11892', 7.177279, 80.141344),
 (564, 7, 'Radawana', NULL, NULL, NULL, NULL, NULL, '11725', 7.029871, 80.100915),
 (565, 7, 'Raddolugama', NULL, NULL, NULL, NULL, NULL, '11400', 7.140656, 79.898198),
