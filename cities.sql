@@ -313,7 +313,7 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (284, 3, 'Wineethagama', 'විනීතගම', NULL, NULL, NULL, NULL, '90034', 7.029, 80.937),
 (285, 3, 'Yalagamuwa', 'යාලගමුව', NULL, NULL, NULL, NULL, '90329', 7.047834, 80.950541),
 (286, 3, 'Yalwela', 'යල්වෙල', NULL, NULL, NULL, NULL, '90706', 7.2667, 81.15),
-(287, 4, 'Addalaichenai', අඩ්ඩාලච්චේන, NULL, NULL, NULL, NULL, '32350', 7.4833, 81.75),
+(287, 4, 'Addalaichenai', 'අඩ්ඩාලච්චේන', NULL, NULL, NULL, NULL, '32350', 7.4833, 81.75),
 (288, 4, 'Ampilanthurai', 'අම්පිලන්තුරෙයි', NULL, NULL, NULL, NULL, '30162', 7.8597, 81.4411),
 (289, 4, 'Araipattai', NULL, NULL, NULL, NULL, NULL, '30150', 7.667705, 81.725335),
 (290, 4, 'Ayithiyamalai', NULL, NULL, NULL, NULL, NULL, '30362', 7.670934, 81.574798),

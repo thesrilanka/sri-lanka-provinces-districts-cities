@@ -43,10 +43,10 @@ There are three SQL files,
 
 **Cities**
 
-| id  | district_id | name_en       | name_si       | name_ta       | sub_name_en       | sub_name_si       | sub_name_ta       | postcode | latitude | longitude |
-| --- | ----------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
-| 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | NULL          | NULL          | NULL          | 32400    | 7.2167   | 81.85     |
-| 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
+| id  | district_id | name_en   | name_si  | name_ta  | sub_name_en | sub_name_si | sub_name_ta | postcode | latitude  | longitude |
+| --- | ---         | ---       | ---      | ---       | ---        | ---         | ---         | ---      | ---       | ---       |
+| 338 | 5           | Colombo 8 | කොළඹ 8 | கொழும்பு 8 | Borella    | බොරැල්ල     | பொறளை    | 00800     | 6.914722  | 79.877778 |
+| 376 | 5           | Colombo 6 | කොළඹ 6 | கொழும்பு 6 | Wellawatta | වැල්ලවත්ත   | வெள்ளவத்தை | 00600     | 6.874657  | 79.860483 |
 
 
 ### Install
