@@ -1,9 +1,7 @@
-# Sri Lanka Provinces Districts Cities Database ##
+# Sri Lanka Provinces Districts Cities Database
 
 
 ### About
-
-
 
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities related data.
 
@@ -12,19 +10,20 @@ There are three SQL files,
  2. districts.sql (All districts related to each province)
  3. cities.sql (All cities related to each district)
 
+
 ### Updates
 
 * July 18 2016 - Changed the structure of cities table ability to add sub city names.
 
 
-###Statistics
+### Statistics
 
 *  Provinces - 9
 *  Districts - 25
 *  Cities - 1846
 
-###Sample tables structure with data
 
+### Sample tables structure with data
 
 **Provinces**
 
@@ -44,10 +43,10 @@ There are three SQL files,
 
 **Cities**
 
-| id  | district_id | name_en       | name_si       | name_ta       | sub_name_en       | sub_name_si       | sub_name_ta       | postcode | latitude | longitude |
-| --- | ----------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
-| 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | NULL          | NULL          | NULL          | 32400    | 7.2167   | 81.85     |
-| 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | NULL          | NULL          | NULL          | 90326    | 7.4      | 81.3      |
+| id  | district_id | name_en   | name_si  | name_ta  | sub_name_en | sub_name_si | sub_name_ta | postcode | latitude  | longitude |
+| --- | ---         | ---       | ---      | ---       | ---        | ---         | ---         | ---      | ---       | ---       |
+| 338 | 5           | Colombo 8 | කොළඹ 8 | கொழும்பு 8 | Borella    | බොරැල්ල     | பொறளை    | 00800     | 6.914722  | 79.877778 |
+| 376 | 5           | Colombo 6 | කොළඹ 6 | கொழும்பு 6 | Wellawatta | වැල්ලවත්ත   | வெள்ளவத்தை | 00600     | 6.874657  | 79.860483 |
 
 
 ### Install
@@ -56,7 +55,6 @@ In order to prevent unnecessary error occurring, start to import or execute prov
 
 
 ### MySQL Usage
-
 
 **Advantages of latitude and longitude**
 
@@ -76,30 +74,28 @@ ORDER BY distance
 
 ### Note
 
-
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * Feel free to contribute to the project.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
 
 
-
 ### Translation in progress
 
-> **Provinces**
+**Provinces**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
 **Districts**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
 > | 100% | 100% |
->
+
 **Cities**
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
-> | 4% | 0% |
+> | 48% | 0.6% |
 
