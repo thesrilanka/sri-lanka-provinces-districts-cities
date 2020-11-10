@@ -1,6 +1,3 @@
-﻿
--- --------------------------------------------------------
-
 --
 -- Table structure for table `cities`
 --
@@ -854,10 +851,10 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (825, 11, 'Madugalla', 'මඩුගල්ල', NULL, NULL, NULL, NULL, '20938', 7.265802, 80.882139),
 (826, 11, 'Madulkele', NULL, NULL, NULL, NULL, NULL, '20840', 7.400281, 80.728874),
 (827, 11, 'Mahadoraliyadda', NULL, NULL, NULL, NULL, NULL, '20945', 7.3, 80.85),
-(828, 11, 'Mahamedagama', මහමැදගම, NULL, NULL, NULL, NULL, '20216', 7.225, 80.7167),
+(828, 11, 'Mahamedagama', 'මහමැදගම', NULL, NULL, NULL, NULL, '20216', 7.225, 80.7167),
 (829, 11, 'Mahanagapura', NULL, NULL, NULL, NULL, NULL, '32018', 7.3792, 80.4982),
-(830, 11, 'Mailapitiya', මයිලපිටිය, NULL, NULL, NULL, NULL, '20702', 7.1517, 80.7118),
-(831, 11, 'Makkanigama', මක්කානිගම, NULL, NULL, NULL, NULL, '20828', 7.3833, 80.6333),
+(830, 11, 'Mailapitiya', 'මයිලපිටිය', NULL, NULL, NULL, NULL, '20702', 7.1517, 80.7118),
+(831, 11, 'Makkanigama', 'මක්කානිගම', NULL, NULL, NULL, NULL, '20828', 7.3833, 80.6333),
 (832, 11, 'Makuldeniya', NULL, NULL, NULL, NULL, NULL, '20921', 7.341706, 80.777466),
 (833, 11, 'Mangalagama', 'මංගලගම', NULL, NULL, NULL, NULL, '32069', 7.285856, 80.563656),
 (834, 11, 'Mapakanda', NULL, NULL, NULL, NULL, NULL, '20662', 7.007889, 80.531101),
@@ -877,14 +874,14 @@ INSERT INTO `cities` (`id`, `district_id`, `name_en`, `name_si`, `name_ta`, `sub
 (848, 11, 'Murutalawa', 'මුරුතලාව', NULL, NULL, NULL, NULL, '20232', 7.3, 80.5667),
 (849, 11, 'Muruthagahamulla', NULL, NULL, NULL, NULL, NULL, '20526', 7.1364, 80.5766),
 (850, 11, 'Nanuoya', 'නානුඔය', NULL, NULL, NULL, NULL, '22150', 7.1171, 80.6387),
-(851, 11, 'Naranpanawa', නාරම්පනාව, NULL, NULL, NULL, NULL, '20176', 7.339733, 80.729831),
+(851, 11, 'Naranpanawa', 'නාරම්පනාව', NULL, NULL, NULL, NULL, '20176', 7.339733, 80.729831),
 (852, 11, 'Narawelpita', NULL, NULL, NULL, NULL, NULL, '81302', 7.3167, 80.8),
 (853, 11, 'Nawalapitiya', 'නාවලපිටිය', NULL, NULL, NULL, NULL, '20650', 7.05048, 80.530631),
 (854, 11, 'Nawathispane', NULL, NULL, NULL, NULL, NULL, '20670', 7.0333, 80.5),
-(855, 11, 'Nillambe', නිල්ලඹ, NULL, NULL, NULL, NULL, '20418', 7.15, 80.6333),
+(855, 11, 'Nillambe', 'නිල්ලඹ', NULL, NULL, NULL, NULL, '20418', 7.15, 80.6333),
 (856, 11, 'Nugaliyadda', NULL, NULL, NULL, NULL, NULL, '20204', 7.2333, 80.7),
 (857, 11, 'Ovilikanda', NULL, NULL, NULL, NULL, NULL, '21020', 7.45, 80.5667),
-(858, 11, 'Pallekotuwa', පල්ලෙකොටුව, NULL, NULL, NULL, NULL, '20084', 7.3333, 80.5667),
+(858, 11, 'Pallekotuwa', 'පල්ලෙකොටුව', NULL, NULL, NULL, NULL, '20084', 7.3333, 80.5667),
 (859, 11, 'Panwilatenna', NULL, NULL, NULL, NULL, NULL, '20544', 7.1556, 80.6314),
 (860, 11, 'Paradeka', NULL, NULL, NULL, NULL, NULL, '20578', 7.12293, 80.618959),
 (861, 11, 'Pasbage', 'පස්බාගේ', NULL, NULL, NULL, NULL, '20654', 7.0358, 80.5262),
