@@ -3,7 +3,7 @@
 
 ### About
 
-This is a MySQL version of Sri Lankan Provinces => Districts => Cities related data. Each city has longitude, latitude, and postal code (postcode) other than its names.
+This is a MySQL version of Sri Lankan Provinces => Districts => Cities, related data. Each city has longitude, latitude, and postal code (postcode) other than its name.
 
 There are three SQL files,
  1. provinces.sql (Names of nine provinces)
@@ -13,7 +13,7 @@ There are three SQL files,
 
 ### Updates
 
-* July 18 2016 - Changed the structure of cities table ability to add sub city names.
+* July 18, 2016 - Changed the structure of cities table ability to add sub-city names.
 
 
 ### Statistics
@@ -51,18 +51,18 @@ There are three SQL files,
 
 ### Install
 
-In order to prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
+To prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
 
 
 ### MySQL Usage
 
 **Advantages of latitude and longitude**
 
-* Integrate with google map or any map related service to show exact place of the city in the map.
+* Integrate with google map or any map-related service to show the exact place of the city on the map.
 * Find locations are within a certain radius distance of a given latitude/longitude.
 
 
-Here's the SQL statement that will find the closest locations that are within a radius of 25 kilometers to the 7.358849, 81.280133 coordinate. It calculates the distance based on the latitude/longitude of that row and the target latitude/longitude, and then asks for only rows where the distance value is less than 25, orders the whole query by distance.
+Here's the SQL statement that will find the closest locations that are within a radius of 25 kilometers to the 7.358849, 81.280133 coordinate. It calculates the distance based on the latitude/longitude of that row and the target latitude/longitude and then asks for only rows where the distance value is less than 25, ordering the whole query by distance.
 
 ```SQL
 SELECT id, name_en, name_si, name_ta, (6371 * ACOS(COS(RADIANS(7.358849)) * COS(RADIANS(latitude)) * COS(RADIANS(longitude) - RADIANS(81.280133)) + SIN(RADIANS(7.358849)) * SIN(RADIANS(latitude)))) AS distance
@@ -74,7 +74,7 @@ ORDER BY distance
 
 ### Note
 
-* This free database dose not guarantee for the complete list of cities in Sri Lanka.
+* This free database does not guarantee the complete list of cities in Sri Lanka.
 * Feel free to contribute to the project.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
 
