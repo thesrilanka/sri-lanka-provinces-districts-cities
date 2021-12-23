@@ -5,6 +5,9 @@
 
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities, related data. Each city has longitude, latitude, and postal code (postcode) other than its name.
 
+### Data Errors
+If you discover wrong translations or any issues, please use the issue tracker to mention or simply send a pull request with the changes.
+
 There are three SQL files,
  1. provinces.sql (Names of nine provinces)
  2. districts.sql (All districts related to each province)
