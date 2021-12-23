@@ -6,7 +6,7 @@
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities, related data. Each city has longitude, latitude, and postal code (postcode) other than its name.
 
 ### Data Errors
-If you discover wrong translations or any issues, please use the issue tracker to mention or simply send a pull request with the changes.
+If you discover wrong translations or any other issues, please use the issue tracker to mention or simply send a pull request with the changes.
 
 There are three SQL files,
  1. provinces.sql (Names of nine provinces)
@@ -52,7 +52,7 @@ There are three SQL files,
 | 376 | 5           | Colombo 6 | කොළඹ 6 | கொழும்பு 6 | Wellawatta | වැල්ලවත්ත   | வெள்ளவத்தை | 00600     | 6.874657  | 79.860483 |
 
 
-### Install
+### Installation
 
 To prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
 
