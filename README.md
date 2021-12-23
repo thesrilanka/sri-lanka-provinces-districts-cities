@@ -76,10 +76,9 @@ ORDER BY distance
 
 * This free database does not guarantee the complete list of cities in Sri Lanka.
 * Feel free to contribute to the project.
-* TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
 
 
-### Translation in progress
+### Translation status
 
 **Provinces**
 > 
@@ -97,5 +96,5 @@ ORDER BY distance
 > 
 > | සිංහල | தமிழ |  
 > | ---- | ---- |
-> | 68% | 22% |
+> | 100% | 100% |
 
