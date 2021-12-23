@@ -20,7 +20,7 @@ There are three SQL files,
 
 *  Provinces - 9
 *  Districts - 25
-*  Cities - 1846
+*  Cities - 2154
 
 
 ### Sample tables structure with data
