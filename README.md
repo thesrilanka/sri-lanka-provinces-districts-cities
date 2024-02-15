@@ -3,10 +3,10 @@
 
 ### About
 
-This is a MySQL version of Sri Lankan Provinces => Districts => Cities, related data. Each city has longitude, latitude, and postal code (postcode) other than its name.
+This is a MySQL version of Sri Lankan Provinces => Districts => Cities, and related data. Each city has longitude, latitude, and postal code (postcode) other than its name.
 
 ### Data Errors
-If you discover wrong translations or any other issues, please use the issue tracker to mention or simply send a pull request with the changes.
+If you discover wrong translations or any other issues, please use the issue tracker to mention or send a pull request with the changes.
 
 There are three SQL files,
  1. provinces.sql (Names of nine provinces)
@@ -17,6 +17,7 @@ There are three SQL files,
 ### Updates
 
 * July 18, 2016 - Changed the structure of cities table ability to add sub-city names.
+* April 25, 2022 - Completed translations in all three languages.
 
 
 ### Statistics
@@ -54,18 +55,19 @@ There are three SQL files,
 
 ### Installation
 
-To prevent unnecessary error occurring, start to import or execute provinces.sql, then districts.sql, lastly cities.sql
+To prevent unnecessary errors from occurring, start to import or execute provinces.sql, then districts.sql, and lastly cities.sql
 
 
-### MySQL Usage
+### Usage
 
 **Advantages of latitude and longitude**
 
-* Integrate with google map or any map-related service to show the exact place of the city on the map.
-* Find locations are within a certain radius distance of a given latitude/longitude.
+* Integrate with Google Maps or any map-related service to show the exact place of the city on the map.
+* Find locations within a certain radius of a given latitude/longitude.
 
+**Find nearby locations using the Haversine formula**
 
-Here's the SQL statement that will find the closest locations that are within a radius of 25 kilometers to the 7.358849, 81.280133 coordinate. It calculates the distance based on the latitude/longitude of that row and the target latitude/longitude and then asks for only rows where the distance value is less than 25, ordering the whole query by distance.
+Here's the SQL statement that will find the closest locations within a radius of 25 kilometers to the 7.358849, 81.280133 coordinate. It calculates the distance based on the latitude/longitude of that row and the target latitude/longitude and then asks for only rows where the distance value is less than 25, ordering the whole query by distance.
 
 ```SQL
 SELECT id, name_en, name_si, name_ta, (6371 * ACOS(COS(RADIANS(7.358849)) * COS(RADIANS(latitude)) * COS(RADIANS(longitude) - RADIANS(81.280133)) + SIN(RADIANS(7.358849)) * SIN(RADIANS(latitude)))) AS distance
@@ -73,7 +75,12 @@ FROM cities
 HAVING distance < 25
 ORDER BY distance
 ```
+<em>The above assumes that you have distance in kilometers.  If distance is in miles then replace 6371 with 3959.</em>
 
+References:
+
+* https://en.wikipedia.org/wiki/Haversine_formula
+* https://stackoverflow.com/questions/574691/mysql-great-circle-distance-haversine-formula
 
 ### Note
 
